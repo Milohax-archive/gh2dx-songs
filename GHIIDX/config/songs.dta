@@ -1095,30 +1095,39 @@
       (name songs/laidtorest/laidtorest)
       (tracks
          ((guitar 2)
-          (rhythm 3)
+            (rhythm 3)
           
           ))
-      (pans (-1.0 1.0 0.0 0.0))
-      (vols (-3.0 -3.0 -2.0 -2.0))
-      (cores (-1 -1 1 -1))
+      (pans
+         (-1.0 1.0 0.0 0.0))
+      (vols
+         (-3.0 -3.0 -2.0 -2.0))
+      (cores
+         (-1 -1 1 -1))
       (midi_file songs/laidtorest/laidtorest.mid))
    (song_coop
       (name songs/laidtorest/laidtorest_coop)
       (tracks
          ((guitar 2)
-          (rhythm 3)))
-      (pans (-1.0 1.0 0.0 0.0))
-      (vols (-3.0 -3.0 -2.0 -2.0))
-      (cores (-1 -1 1 -1))
+            (rhythm 3)))
+      (pans
+         (-1.0 1.0 0.0 0.0))
+      (vols
+         (-3.0 -3.0 -2.0 -2.0))
+      (cores
+         (-1 -1 1 -1))
       (midi_file songs/laidtorest/laidtorest_coop.mid))
    (song_vs
       (name songs/laidtorest/laidtorest)
       (tracks
          ((guitar 2)
-          (rhythm 3)))
-      (pans (-1.0 1.0 0.0 0.0))
-      (vols (-3.0 -3.0 -2.0 -2.0))
-      (cores (-1 -1 1 -1))
+            (rhythm 3)))
+      (pans
+         (-1.0 1.0 0.0 0.0))
+      (vols
+         (-3.0 -3.0 -2.0 -2.0))
+      (cores
+         (-1 -1 1 -1))
       (midi_file songs/laidtorest/laidtorest.mid))
    (anim_tempo kTempoFast)
    (preview 44600 72500)
@@ -1415,30 +1424,39 @@
       (name songs/mother/mother)
       (tracks
          ((guitar 2)
-          (rhythm 3)
+            (rhythm 3)
           
           ))
-      (pans (-1.0 1.0 0.0 0.0))
-      (vols (0.0 0.0 -0.5 -0.5))
-      (cores (-1 -1 1 -1))
+      (pans
+         (-1.0 1.0 0.0 0.0))
+      (vols
+         (0.0 0.0 -0.5 -0.5))
+      (cores
+         (-1 -1 1 -1))
       (midi_file songs/mother/mother.mid))
    (song_coop
       (name songs/mother/mother_coop)
       (tracks
          ((guitar 2)
-          (rhythm 3)))
-      (pans (-1.0 1.0 0.0 0.0))
-      (vols (-3.0 -3.0 -2.0 -2.0))
-      (cores (-1 -1 1 -1))
+            (rhythm 3)))
+      (pans
+         (-1.0 1.0 0.0 0.0))
+      (vols
+         (-3.0 -3.0 -2.0 -2.0))
+      (cores
+         (-1 -1 1 -1))
       (midi_file songs/mother/mother_coop.mid))
    (song_vs
       (name songs/mother/mother)
       (tracks
          ((guitar 2)
-          (rhythm 3)))
-      (pans (-1.0 1.0 0.0 0.0))
-      (vols (-3.0 -3.0 -2.0 -2.0))
-      (cores (-1 -1 1 -1))
+            (rhythm 3)))
+      (pans
+         (-1.0 1.0 0.0 0.0))
+      (vols
+         (-3.0 -3.0 -2.0 -2.0))
+      (cores
+         (-1 -1 1 -1))
       (midi_file songs/mother/mother.mid))
    (anim_tempo kTempoMedium)
    (preview 61100 81500)
@@ -2707,7 +2725,7 @@
          {set $songorigin "Guitar Hero II"}
          {set $songduration 168801}
          {set $songguitarrank 3}
-         {set $songbassrank 0}
+         {set $songbassrank 3}
          {set $songrhythmrank 0}
          {set $songdrumrank 0}
          {set $songartist "Ounce of Self"}
@@ -2718,22 +2736,30 @@
    (song
       (name songs/drinkup/drinkup)
       (tracks
-         ((guitar (2 3))
-          (bass 4)
+         ((guitar
+               (2 3))
+            (bass 4)
           
           ))
-      (pans (-1.0 1.0 -1.0 1.0 0.0))
-      (vols (-3.0 -3.0 -3.0 -3.0 -1.0))
-      (cores (-1 -1 1 1 -1))
+      (pans
+         (-1.0 1.0 -1.0 1.0 0.0))
+      (vols
+         (-3.0 -3.0 -3.0 -3.0 -1.0))
+      (cores
+         (-1 -1 1 1 -1))
       (midi_file songs/drinkup/drinkup.mid))
    (song_vs
       (name songs/drinkup/drinkup)
       (tracks
-         ((guitar (2 3))
-          (bass 4)))
-      (pans (-1.0 1.0 -1.0 1.0 0.0))
-      (vols (-3.0 -3.0 -3.0 -3.0 -1.0))
-      (cores (-1 -1 1 1 -1))
+         ((guitar
+               (2 3))
+            (bass 4)))
+      (pans
+         (-1.0 1.0 -1.0 1.0 0.0))
+      (vols
+         (-3.0 -3.0 -3.0 -3.0 -1.0))
+      (cores
+         (-1 -1 1 1 -1))
       (midi_file songs/drinkup/drinkup.mid))
    (anim_tempo kTempoFast)
    (preview 30000 44500)
@@ -2801,11 +2827,11 @@
          {set $songalbum "Legend of the World"}
          {set $author "Harmonix"}
          {set $songyear "2006"}
-         {set $songgenre "Psychedelic Rock"}
+         {set $songgenre "Rock"}
          {set $songorigin "Guitar Hero II"}
          {set $songduration 422359}
          {set $songguitarrank 4}
-         {set $songbassrank 0}
+         {set $songbassrank 3}
          {set $songrhythmrank 0}
          {set $songdrumrank 0}
          {set $songartist "Valient Thorr"}
@@ -2816,22 +2842,29 @@
    (song
       (name songs/fallofpangea/fallofpangea)
       (tracks
-         ((guitar (2 3))
-          (bass 4)
+         ((guitar
+               (2 3))
+            (bass 4)
           
           ))
-      (pans (-1.0 1.0 -1.0 1.0 0.0))
-      (vols (-3.0 -3.0 -3.0 -3.0 0.0))
-      (cores (-1 -1 1 1 -1))
+      (pans
+         (-1.0 1.0 -1.0 1.0 0.0))
+      (vols
+         (-3.0 -3.0 -3.0 -3.0 0.0))
+      (cores
+         (-1 -1 1 1 -1))
       (midi_file songs/fallofpangea/fallofpangea.mid))
    (song_vs
       (name songs/fallofpangea/fallofpangea)
       (tracks
-         ((guitar (2 3))
-          (bass 4)))
-      (pans (-1.0 1.0 -1.0 1.0 0.0))
-      (vols (-3.0 -3.0 -3.0 -3.0 0.0))
-      (cores (-1 -1 1 1 -1))
+         ((guitar
+               (2 3))
+            (bass 4)))
+      (pans
+         (-1.0 1.0 -1.0 1.0 0.0))
+      (vols
+         (-3.0 -3.0 -3.0 -3.0 0.0))
+      (cores
       (midi_file songs/fallofpangea/fallofpangea.mid))
    (anim_tempo kTempoFast)
    (preview 114000 134000)
@@ -3012,11 +3045,11 @@
          {set $songalbum "Noble Rot"}
          {set $author "Harmonix"}
          {set $songyear "2006"}
-         {set $songgenre "Rock"}
+         {set $songgenre "Hard Rock"}
          {set $songorigin "Guitar Hero II"}
          {set $songduration 217449}
          {set $songguitarrank 3}
-         {set $songbassrank 0}
+         {set $songbassrank 2}
          {set $songrhythmrank 0}
          {set $songdrumrank 0}
          {set $songartist "Noble Rot"}
@@ -3027,23 +3060,31 @@
    (song
       (name songs/kicked/kicked)
       (tracks
-         ((guitar (2 3))
-          (bass 4)
+         ((guitar
+               (2 3))
+            (bass 4)
           
           ))
-      (pans (-1.0 1.0 -1.0 1.0 0.0))
-      (vols (-2.0 -2.0 -2.0 -2.0 0.0))
-      (cores (-1 -1 1 1 -1))
+      (pans
+         (-1.0 1.0 -1.0 1.0 0.0))
+      (vols
+         (-2.0 -2.0 -2.0 -2.0 0.0))
+      (cores
+         (-1 -1 1 1 -1))
       (midi_file songs/kicked/kicked.mid)
       (hopo_threshold 250))
    (song_vs
       (name songs/kicked/kicked)
       (tracks
-         ((guitar (2 3))
-          (bass 4)))
-      (pans (-1.0 1.0 -1.0 1.0 0.0))
-      (vols (-2.0 -2.0 -2.0 -2.0 0.0))
-      (cores (-1 -1 1 1 -1))
+         ((guitar
+               (2 3))
+            (bass 4)))
+      (pans
+         (-1.0 1.0 -1.0 1.0 0.0))
+      (vols
+         (-2.0 -2.0 -2.0 -2.0 0.0))
+      (cores
+         (-1 -1 1 1 -1))
       (midi_file songs/kicked/kicked.mid)
       (hopo_threshold 250))
    (anim_tempo kTempoMedium)
@@ -3108,7 +3149,7 @@
          {set $songduration 166980}
          {set $songguitarrank 2}
          {set $songbassrank 0}
-         {set $songrhythmrank 0}
+         {set $songrhythmrank 2}
          {set $songdrumrank 0}
          {set $songartist "The Acro-Brats"}
       }
@@ -3119,30 +3160,39 @@
       (name songs/laughtrack/laughtrack)
       (tracks
          ((guitar 2)
-          (rhythm 3)
+            (rhythm 3)
           
           ))
-      (pans (-1.0 1.0 0.0 0.0))
-      (vols (0.0 0.0 0.0 0.0))
-      (cores (-1 -1 1 -1))
+      (pans
+         (-1.0 1.0 0.0 0.0))
+      (vols
+         (0.0 0.0 0.0 0.0))
+      (cores
+         (-1 -1 1 -1))
       (midi_file songs/laughtrack/laughtrack.mid))
    (song_coop
       (name songs/laughtrack/laughtrack_coop)
       (tracks
          ((guitar 2)
-          (rhythm 3)))
-      (pans (-1.0 1.0 0.0 0.0))
-      (vols (0.0 0.0 0.0 0.0))
-      (cores (-1 -1 1 -1))
+            (rhythm 3)))
+      (pans
+         (-1.0 1.0 0.0 0.0))
+      (vols
+         (0.0 0.0 0.0 0.0))
+      (cores
+         (-1 -1 1 -1))
       (midi_file songs/laughtrack/laughtrack_coop.mid))
    (song_vs
       (name songs/laughtrack/laughtrack)
       (tracks
          ((guitar 2)
-          (rhythm 3)))
-      (pans (-1.0 1.0 0.0 0.0))
-      (vols (0.0 0.0 0.0 0.0))
-      (cores (-1 -1 1 -1))
+            (rhythm 3)))
+      (pans
+         (-1.0 1.0 0.0 0.0))
+      (vols
+         (0.0 0.0 0.0 0.0))
+      (cores
+         (-1 -1 1 -1))
       (midi_file songs/laughtrack/laughtrack.mid))
    (anim_tempo kTempoFast)
    (preview 24795 44795)
@@ -3206,7 +3256,7 @@
          {set $songorigin "Guitar Hero II"}
          {set $songduration 157151}
          {set $songguitarrank 2}
-         {set $songbassrank 0}
+         {set $songbassrank 1}
          {set $songrhythmrank 0}
          {set $songdrumrank 0}
          {set $songartist "The Amazing Crowns"}
@@ -3217,22 +3267,32 @@
    (song
       (name songs/mrfixit/mrfixit)
       (tracks
-         ((guitar (2 3))
-          (bass 4)
+         ((guitar
+               (2 3))
+            (bass
+               (4))
           
           ))
-      (pans (-1.0 1.0 -1.0 1.0 0.0))
-      (vols (-2.5 -2.5 -3.5 -3.5 0.0))
-      (cores (-1 -1 1 1 -1))
+      (pans
+         (-1.0 1.0 -1.0 1.0 0.0))
+      (vols
+         (-2.5 -2.5 -3.5 -3.5 -0.0))
+      (cores
+         (-1 -1 1 1 -1))
       (midi_file songs/mrfixit/mrfixit.mid))
    (song_vs
       (name songs/mrfixit/mrfixit)
       (tracks
-         ((guitar (2 3))
-          (bass 4)))
-      (pans (-1.0 1.0 -1.0 1.0 0.0))
-      (vols (-2.5 -2.5 -3.5 -3.5 0.0))
-      (cores (-1 -1 1 1 -1))
+         ((guitar
+               (2 3))
+            (bass
+               (4))))
+      (pans
+         (-1.0 1.0 -1.0 1.0 0.0))
+      (vols
+         (-2.5 -2.5 -3.5 -3.5 -0.0))
+      (cores
+         (-1 -1 1 1 -1))
       (midi_file songs/mrfixit/mrfixit.mid))
    (anim_tempo kTempoMedium)
    (preview 29000 49000)
@@ -3251,7 +3311,7 @@
          {set $songorigin "Guitar Hero II"}
          {set $songduration 172130}
          {set $songguitarrank 3}
-         {set $songbassrank 0}
+         {set $songbassrank 2}
          {set $songrhythmrank 0}
          {set $songdrumrank 0}
          {set $songartist "Every Time I Die"}
@@ -3262,22 +3322,32 @@
    (song
       (name songs/newblack/newblack)
       (tracks
-         ((guitar (2 3))
-          (bass 4)
+         ((guitar
+               (2 3))
+            (bass
+               (4))
           
           ))
-      (pans (-1.0 1.0 -1.0 1.0 0.0))
-      (vols (-3.0 -3.0 -3.0 -3.0 -1.0))
-      (cores (-1 -1 1 1 -1))
+      (pans
+         (-1.0 1.0 -1.0 1.0 0.0))
+      (vols
+         (-3.0 -3.0 -3.0 -3.0 -1.0))
+      (cores
+         (-1 -1 1 1 -1))
       (midi_file songs/newblack/newblack.mid))
    (song_vs
       (name songs/newblack/newblack)
       (tracks
-         ((guitar (2 3))
-          (bass 4)))
-      (pans (-1.0 1.0 -1.0 1.0 0.0))
-      (vols (-3.0 -3.0 -3.0 -3.0 -1.0))
-      (cores (-1 -1 1 1 -1))
+         ((guitar
+               (2 3))
+            (bass
+               (4))))
+      (pans
+         (-1.0 1.0 -1.0 1.0 0.0))
+      (vols
+         (-3.0 -3.0 -3.0 -3.0 -1.0))
+      (cores
+         (-1 -1 1 1 -1))
       (midi_file songs/newblack/newblack.mid))
    (anim_tempo kTempoMedium)
    (preview 53000 73000)
@@ -3286,17 +3356,17 @@
       (guitar lespaul)
       (venue big)))
 (onefortheroad
-   (name "One For the Road")
+   (name "One for the Road")
    (artist
       {do
          {set $songalbum "Breaking Wheel"}
          {set $author "Harmonix"}
          {set $songyear "2006"}
-         {set $songgenre "Death Metal"}
+         {set $songgenre "Metal"}
          {set $songorigin "Guitar Hero II"}
          {set $songduration 266666}
          {set $songguitarrank 4}
-         {set $songbassrank 0}
+         {set $songbassrank 3}
          {set $songrhythmrank 0}
          {set $songdrumrank 0}
          {set $songartist "Breaking Wheel"}
@@ -3307,23 +3377,33 @@
    (song
       (name songs/onefortheroad/onefortheroad)
       (tracks
-         ((guitar (2 3))
-          (bass (4 5))
+         ((guitar
+               (2 3))
+            (bass
+               (4 5))
           
           ))
-      (pans (-1.0 1.0 -1.0 1.0 -1.0 1.0))
-      (vols (-3.0 -3.0 -3.0 -3.0 -3.0 -3.0))
-      (cores (-1 -1 1 1 -1 -1))
+      (pans
+         (-1.0 1.0 -1.0 1.0 -1.0 1.0))
+      (vols
+         (-3.0 -3.0 -3.0 -3.0 -3.0 -3.0))
+      (cores
+         (-1 -1 1 1 -1 -1))
       (midi_file songs/onefortheroad/onefortheroad.mid)
       (hopo_threshold 250))
    (song_vs
       (name songs/onefortheroad/onefortheroad)
       (tracks
-         ((guitar (2 3))
-          (bass (4 5))))
-      (pans (-1.0 1.0 -1.0 1.0 -1.0 1.0))
-      (vols (-3.0 -3.0 -3.0 -3.0 -3.0 -3.0))
-      (cores (-1 -1 1 1 -1 -1))
+         ((guitar
+               (2 3))
+            (bass
+               (4 5))))
+      (pans
+         (-1.0 1.0 -1.0 1.0 -1.0 1.0))
+      (vols
+         (-3.0 -3.0 -3.0 -3.0 -3.0 -3.0))
+      (cores
+         (-1 -1 1 1 -1 -1))
       (midi_file songs/onefortheroad/onefortheroad.mid)
       (hopo_threshold 250))
    (anim_tempo kTempoFast)
@@ -3339,11 +3419,11 @@
          {set $songalbum "Last Known Address"}
          {set $author "Harmonix"}
          {set $songyear "2006"}
-         {set $songgenre "Alternative Rock"}
+         {set $songgenre "Alternative"}
          {set $songorigin "Guitar Hero II"}
          {set $songduration 204358}
          {set $songguitarrank 2}
-         {set $songbassrank 0}
+         {set $songbassrank 1}
          {set $songrhythmrank 0}
          {set $songdrumrank 0}
          {set $songartist "The Neighborhoods"}
@@ -3354,22 +3434,32 @@
    (song
       (name songs/parasite/parasite)
       (tracks
-         ((guitar (2 3))
-          (bass (4 5))
+         ((guitar
+               (2 3))
+            (bass
+               (4 5))
           
           ))
-      (pans (-1.0 1.0 -1.0 1.0 -1.0 1.0))
-      (vols (-3.0 -3.0 -3.5 -3.5 -1.5 -1.5))
-      (cores (-1 -1 1 1 -1 -1))
+      (pans
+         (-1.0 1.0 -1.0 1.0 -1.0 1.0))
+      (vols
+         (-3.0 -3.0 -3.5 -3.5 -1.5 -1.5))
+      (cores
+         (-1 -1 1 1 -1 -1))
       (midi_file songs/parasite/parasite.mid))
    (song_vs
       (name songs/parasite/parasite)
       (tracks
-         ((guitar (2 3))
-          (bass (4 5))))
-      (pans (-1.0 1.0 -1.0 1.0 -1.0 1.0))
-      (vols (-3.0 -3.0 -3.5 -3.5 -1.5 -1.5))
-      (cores (-1 -1 1 1 -1 -1))
+         ((guitar
+               (2 3))
+            (bass
+               (4 5))))
+      (pans
+         (-1.0 1.0 -1.0 1.0 -1.0 1.0))
+      (vols
+         (-3.0 -3.0 -3.5 -3.5 -1.5 -1.5))
+      (cores
+         (-1 -1 1 1 -1 -1))
       (midi_file songs/parasite/parasite.mid))
    (anim_tempo kTempoFast)
    (preview 32000 54000)
@@ -3388,7 +3478,7 @@
          {set $songorigin "Guitar Hero II"}
          {set $songduration 210001}
          {set $songguitarrank 1}
-         {set $songbassrank 0}
+         {set $songbassrank 1}
          {set $songrhythmrank 0}
          {set $songdrumrank 0}
          {set $songartist "Count Zero"}
@@ -3399,22 +3489,32 @@
    (song
       (name songs/radiumeyes/radiumeyes)
       (tracks
-         ((guitar (2 3))
-          (bass (4 5))
+         ((guitar
+               (2 3))
+            (bass
+               (4 5))
           
           ))
-      (pans (-1.0 1.0 -1.0 1.0 -1.0 1.0))
-      (vols (-2.0 -2.0 -3.0 -3.0 -2.0 -2.0))
-      (cores (-1 -1 1 1 -1 -1))
+      (pans
+         (-1.0 1.0 -1.0 1.0 -1.0 1.0))
+      (vols
+         (-2.0 -2.0 -3.0 -3.0 -2.0 -2.0))
+      (cores
+         (-1 -1 1 1 -1 -1))
       (midi_file songs/radiumeyes/radiumeyes.mid))
    (song_vs
       (name songs/radiumeyes/radiumeyes)
       (tracks
-         ((guitar (2 3))
-          (bass (4 5))))
-      (pans (-1.0 1.0 -1.0 1.0 -1.0 1.0))
-      (vols (-2.0 -2.0 -3.0 -3.0 -2.0 -2.0))
-      (cores (-1 -1 1 1 -1 -1))
+         ((guitar
+               (2 3))
+            (bass
+               (4 5))))
+      (pans
+         (-1.0 1.0 -1.0 1.0 -1.0 1.0))
+      (vols
+         (-2.0 -2.0 -3.0 -3.0 -2.0 -2.0))
+      (cores
+         (-1 -1 1 1 -1 -1))
       (midi_file songs/radiumeyes/radiumeyes.mid))
    (anim_tempo kTempoMedium)
    (preview 104500 124500)
@@ -3433,7 +3533,7 @@
          {set $songorigin "Guitar Hero II"}
          {set $songduration 208282}
          {set $songguitarrank 4}
-         {set $songbassrank 0}
+         {set $songbassrank 3}
          {set $songrhythmrank 0}
          {set $songdrumrank 0}
          {set $songartist "The Last Vegas"}
@@ -3444,23 +3544,33 @@
    (song
       (name songs/rawdog/rawdog)
       (tracks
-         ((guitar (2 3))
-          (bass 4)
+         ((guitar
+               (2 3))
+            (bass
+               (4))
           
           ))
-      (pans (-1.0 1.0 -1.0 1.0 0.0))
-      (vols (-3.0 -3.0 -3.0 -3.0 -1.0))
-      (cores (-1 -1 1 1 -1))
+      (pans
+         (-1.0 1.0 -1.0 1.0 0.0))
+      (vols
+         (-3.0 -3.0 -3.0 -3.0 -1.0))
+      (cores
+         (-1 -1 1 1 -1))
       (midi_file songs/rawdog/rawdog.mid)
       (hopo_threshold 250))
    (song_vs
       (name songs/rawdog/rawdog)
       (tracks
-         ((guitar (2 3))
-          (bass 4)))
-      (pans (-1.0 1.0 -1.0 1.0 0.0))
-      (vols (-3.0 -3.0 -3.0 -3.0 -1.0))
-      (cores (-1 -1 1 1 -1))
+         ((guitar
+               (2 3))
+            (bass
+               (4))))
+      (pans
+         (-1.0 1.0 -1.0 1.0 0.0))
+      (vols
+         (-3.0 -3.0 -3.0 -3.0 -1.0))
+      (cores
+         (-1 -1 1 1 -1))
       (midi_file songs/rawdog/rawdog.mid)
       (hopo_threshold 250))
    (anim_tempo kTempoFast)
@@ -3476,11 +3586,11 @@
          {set $songalbum "Megasus"}
          {set $author "Harmonix"}
          {set $songyear "2006"}
-         {set $songgenre "Doom Metal"}
+         {set $songgenre "Metal"}
          {set $songorigin "Guitar Hero II"}
          {set $songduration 357520}
          {set $songguitarrank 2}
-         {set $songbassrank 0}
+         {set $songbassrank 1}
          {set $songrhythmrank 0}
          {set $songdrumrank 0}
          {set $songartist "Megasus"}
@@ -3518,7 +3628,7 @@
    (name "Six")
    (artist
       {do
-         {set $songalbum "The Fall Of Ideals"}
+         {set $songalbum "The Fall of Ideals"}
          {set $author "Harmonix"}
          {set $songyear "2006"}
          {set $songgenre "Metalcore"}
@@ -3571,7 +3681,7 @@
    (name "Soy Bomb")
    (artist
       {do
-         {set $songalbum "Soy Bomb"}
+         {set $songalbum "Third Time's the Charm"}
          {set $author "Harmonix"}
          {set $songyear "2006"}
          {set $songgenre "Rock"}
@@ -3792,7 +3902,7 @@
          {set $songorigin "Guitar Hero II"}
          {set $songduration 302618}
          {set $songguitarrank 3}
-         {set $songbassrank 0}
+         {set $songbassrank 3}
          {set $songrhythmrank 0}
          {set $songdrumrank 0}
          {set $songartist "Voivod"}
